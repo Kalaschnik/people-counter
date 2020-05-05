@@ -14,5 +14,16 @@ There are, however, different paths one should consider:
 
 Moreover, if external APIs are used, it should be check which API (e.g., [Google Vison](https://cloud.google.com/vision), [Microsoft Face](https://docs.microsoft.com/en-us/azure/cognitive-services/face/quickstarts/client-libraries?tabs=windows&pivots=programming-language-python), [Amazon Rekognition](https://aws.amazon.com/rekognition/)) peforms best (face recognition and possible emotion recognition) regarding human coders.
 
+## [UPDATE] Video Indexer
 
+The Video Indexer performs very well regarding face detection and recognition. See `script.py` and `data.tsv`.
 
+![pic](img/video-indexer.gif)
+
+📚 Docs: https://docs.microsoft.com/en-us/azure/media-services/video-indexer/video-indexer-overview
+
+The API allows you to programmatically upload and analyze video contents:
+
+📚 API: https://docs.microsoft.com/en-us/azure/media-services/video-indexer/video-indexer-get-started
+
+📚 Python Wrapper (pip), as used in `script.py`: https://pypi.org/project/video-indexer/
