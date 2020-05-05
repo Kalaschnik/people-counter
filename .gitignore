@@ -2,7 +2,8 @@
 videos/
 
 # Ignore Azure key
-R-Face-API/key.txt
+*key.txt
+*account.txt
 
 
 # Created by https://www.gitignore.io/api/r,linux,macos,pycharm,windows,jupyternotebooks,visualstudiocode
@@ -197,7 +198,7 @@ vignettes/*.pdf
 /*_files/
 
 ### VisualStudioCode ###
-.vscode/*
+.vscode/
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
