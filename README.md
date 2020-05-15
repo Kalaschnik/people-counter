@@ -1,6 +1,6 @@
 # People Counter
 ## Primary Objective
-Count the Number of Unique People with a Video
+Count the Number of Unique People within a Video
 
 ## About
 See the Jupyter Notebooks for progress notes and samples.
